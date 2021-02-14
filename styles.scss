@@ -280,8 +280,11 @@ header {
         text-align: center;
         font-size: 1.6rem;
         position: absolute;
-        top: calc(50% - 24px);
-        right: calc(50% - 24px);
+        // top: calc(50% - 24px);
+        // right: calc(50% - 24px);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: #fff;
         background-color: #000;
         border-radius: 50%;
